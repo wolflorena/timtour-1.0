@@ -1,0 +1,69 @@
+/* COLORS */
+color-theme{
+    color: 
+    #efc8b1
+    #514644
+    #3c887e
+    #f7dba7
+    #a1674a
+    #002500
+    #b2fbfb
+    }
+
+/*GLOBAL STYLES*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira', monospace;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+    color: #efc8b1;
+}
+
+a:hover{
+    color: #b2fbfb;
+    transition: 0.2s;
+}
+
+li,button,label,p{
+    font-size: 2rem;
+}
+
+/*Nav Section*/
+
+.main-head{
+    background: #514644;
+}
+
+nav{
+    max-height: 10vh;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex: 10 1 20rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+#logo{
+    padding: 2rem;
+    flex: 1 1 50rem;
+    height: 90px;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+}
