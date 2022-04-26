@@ -1,0 +1,34 @@
+/* COLORS */
+color-theme{
+    color: 
+    #efc8b1
+    #514644
+    #3c887e
+    #f7dba7
+    #a1674a
+    #002500
+    #b2fbfb
+    }
+
+/*GLOBAL STYLES*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira', monospace;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+    color: #efc8b1;
+}
+
+a:hover{
+    color: #b2fbfb;
+    transition: 0.2s;
+}
