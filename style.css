@@ -60,7 +60,7 @@ li,button,label,p{
 }
 
 nav{
-    max-height: 10vh;
+    max-height: 7vh;
     display: flex;
     width: 100%;
     margin: auto;
@@ -91,7 +91,7 @@ nav ul{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 90vh;
+    min-height: 93vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,3 +110,64 @@ nav ul{
     padding: 3rem;
     color: #a1674a;
 }
+
+/*SIGNUP ORGANIZATION*/
+.background{
+    /*background-image: linear-gradient( #efc8b1, #a1674a);*/
+    background: linear-gradient(#efc8b1, #a1674a);
+    min-height: 93vh;
+  }
+.signup-box{
+    width: 280px;
+    position: absolute;
+    top:50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color:#514644;
+    z-index: 1;
+  }
+  .textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+  }
+  .textbox input{
+    border:none;
+    outline: none;
+    background: none;
+    color:#b2fbfb;
+    letter-spacing: 2px;
+  }
+
+.textbox input::placeholder{
+    color: #514644;
+    margin-left: 0px;
+    
+  }
+  
+  i{
+    height: 2rem;
+    width: 2rem;
+  }
+
+.img-container img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
+  
+  }
+
+.signupOrg-img img {
+    width: 40%;
+    bottom: 0;
+  }
+  
+  #organization {
+    color: #b2fbfb;
+  }
