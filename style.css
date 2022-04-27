@@ -37,6 +37,22 @@ li,button,label,p{
     font-size: 2rem;
 }
 
+.button{
+    padding: 1rem 3rem;
+    background: none;
+    color: #b2fbfb;
+    border: solid;
+    border-radius: 2rem;
+    border-width: 0.1rem;
+    border-color: #b2fbfb;
+}
+
+.button:hover{
+    border-color: #b2fbfb;
+    color: #a1674a;
+    transition: 0.2s;
+    background-color: #b2fbfb;
+}
 /*Nav Section*/
 
 .main-head{
@@ -66,4 +82,31 @@ nav ul{
     height: 90px;
     margin-top: 3rem;
     margin-left: 1.5rem;
+}
+
+/* WELCOME PAGE */
+
+.hero{
+    background: linear-gradient(180deg,rgba(81,70,68), rgba(0,0,0,0.7)), url("img/krisztian-matyas-CgHXJYDd8og-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1{
+    color: #efc8b1;
+    font-size: 7rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.hero h2{
+    padding: 3rem;
+    color: #a1674a;
 }
